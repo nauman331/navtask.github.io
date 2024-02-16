@@ -12,7 +12,7 @@ one.addEventListener('mousemove', function () {
     ones.style.display = 'flex';
 })
 ones.addEventListener('mouseleave', function () {
-    ones.style.display = 'none';
+    ones.style.display = 'flex';
 })
 two.addEventListener('mouseover', function () {
     twos.style.display = 'block';
@@ -45,7 +45,9 @@ down.addEventListener('mouseover', function () {
 })
 downs.addEventListener('mouseover', function () {
     downs.style.display = 'block';
+    ones.style.display = 'block';
 })
 downs.addEventListener('mouseleave', function () {
     downs.style.display = 'none';
+    ones.style.display = 'none';
 })
